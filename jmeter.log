@@ -1,0 +1,70 @@
+2021-08-19 14:23:05,636 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-08-19 14:23:05,657 INFO o.a.j.JMeter: Loading user properties from: C:\Program Files\apache-maven\apache-jmeter-5.4.1\bin\user.properties
+2021-08-19 14:23:05,658 INFO o.a.j.JMeter: Loading system properties from: C:\Program Files\apache-maven\apache-jmeter-5.4.1\bin\system.properties
+2021-08-19 14:23:05,664 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2021-08-19 14:23:05,664 INFO o.a.j.JMeter: Version 5.4.1
+2021-08-19 14:23:05,664 INFO o.a.j.JMeter: java.version=14.0.1
+2021-08-19 14:23:05,664 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2021-08-19 14:23:05,664 INFO o.a.j.JMeter: os.name=Windows 10
+2021-08-19 14:23:05,664 INFO o.a.j.JMeter: os.arch=amd64
+2021-08-19 14:23:05,664 INFO o.a.j.JMeter: os.version=10.0
+2021-08-19 14:23:05,664 INFO o.a.j.JMeter: file.encoding=Cp1252
+2021-08-19 14:23:05,665 INFO o.a.j.JMeter: java.awt.headless=null
+2021-08-19 14:23:05,665 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-08-19 14:23:05,665 INFO o.a.j.JMeter: Available Processors =12
+2021-08-19 14:23:05,674 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-08-19 14:23:05,674 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-08-19 14:23:05,674 INFO o.a.j.JMeter: JMeterHome=C:\Program Files\apache-maven\apache-jmeter-5.4.1
+2021-08-19 14:23:05,674 INFO o.a.j.JMeter: user.dir  =C:\Users\Leaf\Documents\Jmeter files\final task
+2021-08-19 14:23:05,674 INFO o.a.j.JMeter: PWD       =C:\Users\Leaf\Documents\Jmeter files\final task
+2021-08-19 14:23:05,678 INFO o.a.j.JMeter: IP: 192.168.1.156 Name: DESKTOP-2BKJ33N FullName: DESKTOP-2BKJ33N.home
+2021-08-19 14:23:05,769 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2021-08-19 14:23:06,212 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2021-08-19 14:23:07,257 WARN o.j.r.PluginManagerMenuCreator: Was unable to install pmgr cmdline tool
+java.nio.file.AccessDeniedException: C:\Program Files\apache-maven\apache-jmeter-5.4.1\bin\PluginsManagerCMD.bat
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:274) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1185) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3132) ~[?:?]
+	at org.jmeterplugins.repository.PluginManagerCMDInstaller.writeOut(PluginManagerCMDInstaller.java:24) ~[jmeter-plugins-manager-1.6.jar:?]
+	at org.jmeterplugins.repository.PluginManagerCMDInstaller.main(PluginManagerCMDInstaller.java:12) ~[jmeter-plugins-manager-1.6.jar:?]
+	at org.jmeterplugins.repository.PluginManagerMenuCreator.getMenuItemsAtLocation(PluginManagerMenuCreator.java:16) [jmeter-plugins-manager-1.6.jar:?]
+	at org.apache.jmeter.gui.util.JMeterMenuBar.addPluginsMenuItems(JMeterMenuBar.java:595) [ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.gui.util.JMeterMenuBar.makeOptionsMenu(JMeterMenuBar.java:342) [ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.gui.util.JMeterMenuBar.createMenuBar(JMeterMenuBar.java:202) [ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.gui.util.JMeterMenuBar.<init>(JMeterMenuBar.java:117) [ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.gui.MainFrame.init(MainFrame.java:515) [ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.gui.MainFrame.<init>(MainFrame.java:232) [ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.JMeter.startGui(JMeter.java:410) [ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.JMeter.start(JMeter.java:560) [ApacheJMeter_core.jar:5.4.1]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:254) [ApacheJMeter.jar:5.4.1]
+2021-08-19 14:23:07,402 INFO o.j.r.JARSourceHTTP: Found cached repo
+2021-08-19 14:23:07,530 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-functions=2.1, jpgc-casutg=2.9, jpgc-dummy=0.4, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-perfmon=2.1, jpgc-plugins-manager=1.6, jpgc-tst=2.5, jmeter-core=5.4.1, jmeter-ftp=5.4.1, jmeter-http=5.4.1, jmeter-jdbc=5.4.1, jmeter-jms=5.4.1, jmeter-junit=5.4.1, jmeter-java=5.4.1, jmeter-ldap=5.4.1, jmeter-mail=5.4.1, jmeter-mongodb=5.4.1, jmeter-native=5.4.1, jmeter-tcp=5.4.1, jmeter-components=5.4.1, jpgc-standard=2.0]
+2021-08-19 14:23:12,683 INFO o.a.j.s.FileServer: Default base='C:\Users\Leaf\Documents\Jmeter files\final task'
+2021-08-19 14:23:12,685 INFO o.a.j.g.a.Load: Loading file: C:\Users\Leaf\Documents\Jmeter files\final task\final jmeter task.jmx
+2021-08-19 14:23:12,685 INFO o.a.j.s.FileServer: Set new base='C:\Users\Leaf\Documents\Jmeter files\final task'
+2021-08-19 14:23:12,783 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-08-19 14:23:12,790 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-08-19 14:23:12,792 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-08-19 14:23:12,793 INFO o.a.j.s.SaveService: Loading file: C:\Users\Leaf\Documents\Jmeter files\final task\final jmeter task.jmx
+2021-08-19 14:23:12,935 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-08-19 14:23:12,935 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-08-19 14:23:12,935 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-08-19 14:23:12,935 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-08-19 14:23:12,935 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-08-19 14:23:12,935 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-08-19 14:23:13,160 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2021-08-19 14:23:13,161 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-08-19 14:23:13,161 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-08-19 14:23:13,161 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-08-19 14:23:13,283 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2021-08-19 14:23:13,355 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2021-08-19 14:23:13,355 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2021-08-19 14:23:13,692 INFO o.a.j.s.FileServer: Set new base='C:\Users\Leaf\Documents\Jmeter files\final task'
